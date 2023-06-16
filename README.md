@@ -45,3 +45,6 @@ Simple example made by Arduino & UNITY
 
 # Step5. Metaverse (Real world + virtual world)
 - Connect Unity and Arduino through serial communication.
+- Refer to the uploaded file for details.
+![image](https://github.com/hansoo1/Arduino-Basic-with-UNITY/assets/107674388/12f25817-f526-494d-881a-081ca33a1dbb)
+
