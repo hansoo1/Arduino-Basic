@@ -1,3 +1,3 @@
 # Arduino-Basic with UNITY
 
-ex) Making a robot that can surprise parents in daily life
+# 1. Making a robot that can surprise parents in daily life
