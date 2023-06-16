@@ -20,7 +20,7 @@ Use 3D printer
 
 # Step2. Working Princple
 
-Sub Function 1) The design which reminds you of family (made by 3D Printer)
-Sub Function 2) One-way communication using LCD module
-Sub Function 3) motion detection using ultrasonic sensor
-Sub Function 4) Check the condition of the house using a temperature sensor
+- Sub Function 1) The design which reminds you of family (made by 3D Printer)
+- Sub Function 2) One-way communication using LCD module
+- Sub Function 3) motion detection using ultrasonic sensor
+- Sub Function 4) Check the condition of the house using a temperature sensor
