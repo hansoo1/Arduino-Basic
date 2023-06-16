@@ -28,6 +28,13 @@ Simple example made by Arduino & UNITY
 # Step3. Make Arduino_circuit
 ![image](https://github.com/hansoo1/Arduino-Basic-with-UNITY/assets/107674388/d7c114e2-495d-4e60-a727-4d4e1710c62a)
 
+!Components
+- Arduino (ATMEGA32P)
+- HC-SR04 (ultrasonic sensor)
+- LM35DZ (temperature sensor)
+- LCD 16x2 4pin(I2C control)
+
+
 # Arduino Code 
 - Here is sample code. According to operation and circuit diagram, plz update.
 
