@@ -38,9 +38,7 @@ Simple example made by Arduino & UNITY
 - HC-SR04 (ultrasonic sensor)
 - LM35DZ (temperature sensor)
 - LCD 16x2 4pin(I2C control)
-
-# Arduino Code 
-- Here is sample code. According to operation and circuit diagram, plz update.
+- Here is sample code. According to operation and circuit diagram, you have to modify code!
 
 # Step4. Make a robot!!
 ![image](https://github.com/hansoo1/Arduino-Basic-with-UNITY/assets/107674388/a752777d-1dd4-4043-a521-9f97ff043038)
