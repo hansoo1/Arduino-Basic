@@ -10,13 +10,13 @@ Simple example made by Arduino & UNITY
 - Surprise event for parents
 
 2. Main Requirement
-Confess that you love your parents often
-gift a smile
-Recognize the parents' basic situation
+- Confess that you love your parents often
+- gift a smile
+- Recognize the parents' basic situation
 
 3. How to design
-make to think of famliy (like a child's face)
-Use 3D printer
+- make to think of famliy (like a child's face)
+- Use 3D printer
 
 # Step2. Working Princple
 
