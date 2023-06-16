@@ -34,19 +34,18 @@ Simple example made by Arduino & UNITY
 #include <LiquidCrystal_I2C.h>
 #include <Wire.h>
 
-LiquidCrystal_I2C lcd(0x27, 16, 2);
-float temperature;
-int reading;
-int lm35Pin = A0;
-int trigPin = 5;
-int echoPin = 4;
-float previousTemp = 0.0;
+  LiquidCrystal_I2C lcd(0x27, 16, 2);
+  float temperature;
+  int reading;
+  int lm35Pin = A0;
+  int trigPin = 5;
+  int echoPin = 4;
+  float previousTemp = 0.0;
 
-unsigned long previousDisplayTime = 0;
-const unsigned long displayInterval = 3000;
+  unsigned long previousDisplayTime = 0;
+  const unsigned long displayInterval = 3000;
 
-void setup()
-{
+  void setup(){
   Serial.begin(9600);
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
@@ -55,10 +54,10 @@ void setup()
   delay(1000);         
   lcd.setBacklight(HIGH); 
   lcd.clear();        
-}
+  }
 
-void loop()
-{
+  void loop()
+  {
   unsigned long currentMillis = millis();
   
   digitalWrite(trigPin, LOW);
@@ -69,8 +68,6 @@ void loop()
 
   long duration = pulseIn(echoPin, HIGH);
   float distance = duration * 0.034 / 2;
-
- 
   int tempReading = analogRead(lm35Pin);
   float temp = (tempReading * 5.0 * 100.0) / 1024;
   float tempDiff = temp - previousTemp;  
@@ -86,14 +83,9 @@ void loop()
   if (distance <= 10.0) {
     Serial.println("warning");
   }
-
- 
-  previousTemp = temp;
-
-  
+  previousTemp = temp;  
   Serial.print("TempDiff: ");
   Serial.println(tempDiff);
-
   delay(3000); 
     
   if (currentMillis - previousDisplayTime >= displayInterval) {
@@ -117,7 +109,6 @@ void loop()
   
   if (Serial.available() > 0) {
     String inputString = "";  
-
     char val = Serial.read();
     inputString += val;  
     lcd.clear();
