@@ -24,3 +24,8 @@ Simple example made by Arduino & UNITY
 - Sub Function 2) One-way communication using LCD module
 - Sub Function 3) motion detection using ultrasonic sensor
 - Sub Function 4) Check the condition of the house using a temperature sensor
+
+# Step3. Make Arduino_circuit
+![image](https://github.com/hansoo1/Arduino-Basic-with-UNITY/assets/107674388/d7c114e2-495d-4e60-a727-4d4e1710c62a)
+
+# Code
